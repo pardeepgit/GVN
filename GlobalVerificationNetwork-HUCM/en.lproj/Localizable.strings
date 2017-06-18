@@ -1,0 +1,149 @@
+/* 
+  Localizable.strings
+  GlobalVerificationNetwork-HUCM
+
+  Created by Chetu India on 09/06/17.
+*/
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in CustomTabBarController subclass of UITabBarController ....
+ * String eirther used for TabBar Items Titles...
+ */
+"HOME" = "Home";
+"ORDER" = "Order";
+"TRANSACTION" = "Transaction";
+"NEW_ORDER" = "New Order";
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in UIAlertViewController AlertAction title ....
+ */
+"OK" = "OK";
+"YES" = "Yes";
+"NO" = "No";
+
+
+
+"NETWORK_VALIDATION" = "No Network. Please Check.";
+
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in GVNLoginViewController subclass of UIViewController ....
+ * String eirther used for UITextField input value validation...
+ */
+"USERNAMEVALIDATION" = "Please enter registered Email";
+"VALIDAEMAILVALIDATION" = "Please enter a valid registered Email";
+"PASSWORDVALIDATION" = "Please enter Password";
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in GVNSignUpViewController subclass of UIViewController ....
+ * String eirther used for UITextField input value validation...
+ */
+"FIRSTNAME_VALIDATION" = "Please enter First Name";
+"LASTNAME_VALIDATION" = "Please enter Last Name";
+"COMPANYNAME_VALIDATION" = "Please enter Company Name";
+"INDUSTRYNAME_VALIDATION" = "Please enter Industry Name";
+"EMAILADDRESS_VALIDATION" = "Please enter Email Address";
+"VALIDEMAILADDRESS_VALIDATION" = "Please enter a valid Email Address";
+"PHONENUMBER_VALIDATION" = "Please enter Phone Number";
+"CITY_VALIDATION" = "Please enter City";
+"STATE_VALIDATION" = "Please enter State";
+"POSTAL_VALIDATION" = "Please enter Postal code";
+
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in GVNNewScreeningRequestViewController subclass of UIViewController ....
+ * String eirther used for validation...
+ */
+"SCREENINGPACKAGE_VALIDATION" = "At least select one screening package option";
+"DRIVERSEARCH_VALIDATION" = "Do you want to add a driver record search to your order?";
+
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in GVNOrderViewController subclass of UIViewController ....
+ * String eirther used for validation...
+ */
+"ORDERHISTORY_STATUS" = "Screering Order History Not Found";
+"DRAFTORDER_STATUS" = "Screering Draft Order Not Found";
+"BRONZE_PACKAGE" = "Bronze";
+"SILVER_PACKAGE" = "Silver";
+"GOLD_PACKAGE" = "Gold";
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in GVNNewScreeningDriverSearchViewController subclass of UIViewController ....
+ * String eirther used for validation...
+ */
+"LICENSESTATE_VALIDATION" = "Please enter License State";
+"LICENSEDURATION_VALIDATION" = "Please enter License Duration";
+"LICENSENUMBER_VALIDATION" = "Please enter License Number";
+
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in GVNNewScreeningOrderSummaryViewController subclass of UIViewController ....
+ * String eirther used for validation...
+ */
+"HEADERSTEPTHREE_TITLE" = "NEW ORDER STEP-3";
+"HEADERSTEPFOUR_TITLE" = "NEW ORDER STEP-4";
+
+"BRONZEPACKAGECOST_TITLE" = "Bronze Package of Investigative Search";
+"SILVERPACKAGECOST_TITLE" = "Silver Package of Investigative Search";
+"GOLDPACKAGECOST_TITLE" = "Gold Package of Investigative Search";
+"DRIVERSEARCHCOST_TITLE" = "Driver Record History Search";
+
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in GVNProfileSettingViewController subclass of UIViewController ....
+ * String eirther used for validation...
+ */
+"SETTINGFIRSTNAME_VALIDATION" = "Please enter First Name";
+"SETTINGLASTNAME_VALIDATION" = "Please enter Last Name";
+"SETTINGEMAILADDRESS_VALIDATION" = "Please enter Email Address";
+"SETTINGVALIDEMAILADDRESS_VALIDATION" = "Please enter a valid Email Address";
+"SETTINGDOB_VALIDATION" = "Please enter D.O.B";
+"SETTINGSSN_VALIDATION" = "Please enter S.S.N";
+"SETTINGSTREETADDRESS_VALIDATION" = "Please enter Street Address";
+"SETTINGCITY_VALIDATION" = "Please enter City";
+"SETTINGSTATE_VALIDATION" = "Please enter State";
+"SETTINGMOBILENUMBER_VALIDATION" = "Please enter Mobile Number";
+
+
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in GVNChangePasswordViewController subclass of UIViewController ....
+ * String eirther used for validation...
+ */
+"UPDATEPASSWORDOLDPASSWORD_VALIDATION" = "Please enter Old Password";
+"UPDATEPASSWORDNEWPASSWORD_VALIDATION" = "Please enter New Password";
+"UPDATEPASSWORDCONFIRMPASSWORD_VALIDATION" = "Please enter Confirm Password";
+"UPDATEPASSWORDCONFIRMPASSWORDMISMATCH_VALIDATION" = "Confirm Password Mismatch";
+
+

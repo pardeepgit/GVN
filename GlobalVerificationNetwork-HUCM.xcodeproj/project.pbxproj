@@ -1,0 +1,1186 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A1753201EE19A6B00C1BF8B /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17531F1EE19A6B00C1BF8B /* CoreDataManager.swift */; };
+		3A1753211EE19A6B00C1BF8B /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17531F1EE19A6B00C1BF8B /* CoreDataManager.swift */; };
+		3A1753221EE19A6B00C1BF8B /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17531F1EE19A6B00C1BF8B /* CoreDataManager.swift */; };
+		3A18C3EB1ED861890025FFF3 /* GVNNewScreeningOrderSilverPackageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18C3EA1ED861890025FFF3 /* GVNNewScreeningOrderSilverPackageTableViewCell.swift */; };
+		3A18C3EC1ED861890025FFF3 /* GVNNewScreeningOrderSilverPackageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18C3EA1ED861890025FFF3 /* GVNNewScreeningOrderSilverPackageTableViewCell.swift */; };
+		3A18C3ED1ED861890025FFF3 /* GVNNewScreeningOrderSilverPackageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18C3EA1ED861890025FFF3 /* GVNNewScreeningOrderSilverPackageTableViewCell.swift */; };
+		3A18C3EF1ED861C80025FFF3 /* GVNNewScreeningOrderGoldPackageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18C3EE1ED861C80025FFF3 /* GVNNewScreeningOrderGoldPackageTableViewCell.swift */; };
+		3A18C3F01ED861C80025FFF3 /* GVNNewScreeningOrderGoldPackageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18C3EE1ED861C80025FFF3 /* GVNNewScreeningOrderGoldPackageTableViewCell.swift */; };
+		3A18C3F11ED861C80025FFF3 /* GVNNewScreeningOrderGoldPackageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18C3EE1ED861C80025FFF3 /* GVNNewScreeningOrderGoldPackageTableViewCell.swift */; };
+		3A18C3F31ED862020025FFF3 /* GVNNewScreeningOrderDriverSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18C3F21ED862020025FFF3 /* GVNNewScreeningOrderDriverSearchTableViewCell.swift */; };
+		3A18C3F41ED862020025FFF3 /* GVNNewScreeningOrderDriverSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18C3F21ED862020025FFF3 /* GVNNewScreeningOrderDriverSearchTableViewCell.swift */; };
+		3A18C3F51ED862020025FFF3 /* GVNNewScreeningOrderDriverSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18C3F21ED862020025FFF3 /* GVNNewScreeningOrderDriverSearchTableViewCell.swift */; };
+		3A18C3F71ED86FA00025FFF3 /* GVNNewScreeningOrderBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18C3F61ED86FA00025FFF3 /* GVNNewScreeningOrderBaseTableViewCell.swift */; };
+		3A18C3F81ED86FA00025FFF3 /* GVNNewScreeningOrderBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18C3F61ED86FA00025FFF3 /* GVNNewScreeningOrderBaseTableViewCell.swift */; };
+		3A18C3F91ED86FA00025FFF3 /* GVNNewScreeningOrderBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18C3F61ED86FA00025FFF3 /* GVNNewScreeningOrderBaseTableViewCell.swift */; };
+		3A1C88531EDC2E3F000863E0 /* ScreeningRequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C88521EDC2E3F000863E0 /* ScreeningRequestViewModel.swift */; };
+		3A1C88541EDC2E3F000863E0 /* ScreeningRequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C88521EDC2E3F000863E0 /* ScreeningRequestViewModel.swift */; };
+		3A1C88551EDC2E3F000863E0 /* ScreeningRequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C88521EDC2E3F000863E0 /* ScreeningRequestViewModel.swift */; };
+		3A29BF8B1ECC6DE900980603 /* Norwester.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A29BF891ECC6DE900980603 /* Norwester.otf */; };
+		3A29BF8C1ECC6DE900980603 /* Norwester.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A29BF891ECC6DE900980603 /* Norwester.otf */; };
+		3A29BF8D1ECC6DE900980603 /* Norwester.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A29BF891ECC6DE900980603 /* Norwester.otf */; };
+		3A29BF8E1ECC6DE900980603 /* Pill-Gothic-300mg-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A29BF8A1ECC6DE900980603 /* Pill-Gothic-300mg-Regular.ttf */; };
+		3A29BF8F1ECC6DE900980603 /* Pill-Gothic-300mg-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A29BF8A1ECC6DE900980603 /* Pill-Gothic-300mg-Regular.ttf */; };
+		3A29BF901ECC6DE900980603 /* Pill-Gothic-300mg-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A29BF8A1ECC6DE900980603 /* Pill-Gothic-300mg-Regular.ttf */; };
+		3A3879751EE1D4930095B18E /* GlobalVerificationNetwork_HUCM.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 3A3879741EE1D4930095B18E /* GlobalVerificationNetwork_HUCM.xcdatamodel */; };
+		3A3879761EE1D4930095B18E /* GlobalVerificationNetwork_HUCM.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 3A3879741EE1D4930095B18E /* GlobalVerificationNetwork_HUCM.xcdatamodel */; };
+		3A3879771EE1D4930095B18E /* GlobalVerificationNetwork_HUCM.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 3A3879741EE1D4930095B18E /* GlobalVerificationNetwork_HUCM.xcdatamodel */; };
+		3A3BE88A1EA652B1004306A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3BE8891EA652B1004306A1 /* AppDelegate.swift */; };
+		3A3BE88F1EA652B1004306A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3BE88D1EA652B1004306A1 /* Main.storyboard */; };
+		3A3BE8911EA652B1004306A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3BE8901EA652B1004306A1 /* Assets.xcassets */; };
+		3A3BE8941EA652B1004306A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3BE8921EA652B1004306A1 /* LaunchScreen.storyboard */; };
+		3A3BE89F1EA652B1004306A1 /* GlobalVerificationNetwork_HUCMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3BE89E1EA652B1004306A1 /* GlobalVerificationNetwork_HUCMTests.swift */; };
+		3A3BE8AA1EA652B1004306A1 /* GlobalVerificationNetwork_HUCMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3BE8A91EA652B1004306A1 /* GlobalVerificationNetwork_HUCMUITests.swift */; };
+		3A42EEF91EC5C94300AC2072 /* GVNChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A42EEF81EC5C94300AC2072 /* GVNChangePasswordViewController.swift */; };
+		3A42EEFA1EC5C94300AC2072 /* GVNChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A42EEF81EC5C94300AC2072 /* GVNChangePasswordViewController.swift */; };
+		3A42EEFB1EC5C94300AC2072 /* GVNChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A42EEF81EC5C94300AC2072 /* GVNChangePasswordViewController.swift */; };
+		3A4A038A1EE1D5A200EBA730 /* ApplicantDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A03841EE1D5A200EBA730 /* ApplicantDetail.swift */; };
+		3A4A038B1EE1D5A200EBA730 /* ApplicantDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A03841EE1D5A200EBA730 /* ApplicantDetail.swift */; };
+		3A4A038C1EE1D5A200EBA730 /* ApplicantDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A03841EE1D5A200EBA730 /* ApplicantDetail.swift */; };
+		3A4A038D1EE1D5A200EBA730 /* ApplicantDetail+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A03851EE1D5A200EBA730 /* ApplicantDetail+CoreDataProperties.swift */; };
+		3A4A038E1EE1D5A200EBA730 /* ApplicantDetail+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A03851EE1D5A200EBA730 /* ApplicantDetail+CoreDataProperties.swift */; };
+		3A4A038F1EE1D5A200EBA730 /* ApplicantDetail+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A03851EE1D5A200EBA730 /* ApplicantDetail+CoreDataProperties.swift */; };
+		3A4A03901EE1D5A200EBA730 /* DraftOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A03861EE1D5A200EBA730 /* DraftOrder.swift */; };
+		3A4A03911EE1D5A200EBA730 /* DraftOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A03861EE1D5A200EBA730 /* DraftOrder.swift */; };
+		3A4A03921EE1D5A200EBA730 /* DraftOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A03861EE1D5A200EBA730 /* DraftOrder.swift */; };
+		3A4A03931EE1D5A200EBA730 /* DraftOrder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A03871EE1D5A200EBA730 /* DraftOrder+CoreDataProperties.swift */; };
+		3A4A03941EE1D5A200EBA730 /* DraftOrder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A03871EE1D5A200EBA730 /* DraftOrder+CoreDataProperties.swift */; };
+		3A4A03951EE1D5A200EBA730 /* DraftOrder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A03871EE1D5A200EBA730 /* DraftOrder+CoreDataProperties.swift */; };
+		3A4A03961EE1D5A200EBA730 /* DriverDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A03881EE1D5A200EBA730 /* DriverDetail.swift */; };
+		3A4A03971EE1D5A200EBA730 /* DriverDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A03881EE1D5A200EBA730 /* DriverDetail.swift */; };
+		3A4A03981EE1D5A200EBA730 /* DriverDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A03881EE1D5A200EBA730 /* DriverDetail.swift */; };
+		3A4A03991EE1D5A200EBA730 /* DriverDetail+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A03891EE1D5A200EBA730 /* DriverDetail+CoreDataProperties.swift */; };
+		3A4A039A1EE1D5A200EBA730 /* DriverDetail+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A03891EE1D5A200EBA730 /* DriverDetail+CoreDataProperties.swift */; };
+		3A4A039B1EE1D5A200EBA730 /* DriverDetail+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A03891EE1D5A200EBA730 /* DriverDetail+CoreDataProperties.swift */; };
+		3A5737E21EC08D2600CF21B6 /* GVNSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5737E11EC08D2600CF21B6 /* GVNSignUpViewController.swift */; };
+		3A5737E31EC08D2600CF21B6 /* GVNSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5737E11EC08D2600CF21B6 /* GVNSignUpViewController.swift */; };
+		3A5737E41EC08D2600CF21B6 /* GVNSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5737E11EC08D2600CF21B6 /* GVNSignUpViewController.swift */; };
+		3A5737E61EC0AA6400CF21B6 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5737E51EC0AA6400CF21B6 /* BaseController.swift */; };
+		3A5737E71EC0AA6400CF21B6 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5737E51EC0AA6400CF21B6 /* BaseController.swift */; };
+		3A5737E81EC0AA6400CF21B6 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5737E51EC0AA6400CF21B6 /* BaseController.swift */; };
+		3A58A8C61ECB02E900E851D1 /* GVNNewScreeningRequestApplicantInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A58A8C51ECB02E900E851D1 /* GVNNewScreeningRequestApplicantInfoViewController.swift */; };
+		3A58A8C71ECB02E900E851D1 /* GVNNewScreeningRequestApplicantInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A58A8C51ECB02E900E851D1 /* GVNNewScreeningRequestApplicantInfoViewController.swift */; };
+		3A58A8C81ECB02E900E851D1 /* GVNNewScreeningRequestApplicantInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A58A8C51ECB02E900E851D1 /* GVNNewScreeningRequestApplicantInfoViewController.swift */; };
+		3A5D94091EE6B8A80010D143 /* GVNScreeningOrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5D94081EE6B8A80010D143 /* GVNScreeningOrderDetailViewController.swift */; };
+		3A5D940A1EE6B8A80010D143 /* GVNScreeningOrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5D94081EE6B8A80010D143 /* GVNScreeningOrderDetailViewController.swift */; };
+		3A5D940B1EE6B8A80010D143 /* GVNScreeningOrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5D94081EE6B8A80010D143 /* GVNScreeningOrderDetailViewController.swift */; };
+		3A6D42B71EC0ABF6009C12A9 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D42B61EC0ABF6009C12A9 /* Constant.swift */; };
+		3A6D42B81EC0ABF6009C12A9 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D42B61EC0ABF6009C12A9 /* Constant.swift */; };
+		3A6D42B91EC0ABF6009C12A9 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D42B61EC0ABF6009C12A9 /* Constant.swift */; };
+		3A6D42BC1EC0ADA6009C12A9 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A6D42BB1EC0ADA6009C12A9 /* Roboto-Regular.ttf */; };
+		3A6D42BD1EC0ADA6009C12A9 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A6D42BB1EC0ADA6009C12A9 /* Roboto-Regular.ttf */; };
+		3A6D42BE1EC0ADA6009C12A9 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A6D42BB1EC0ADA6009C12A9 /* Roboto-Regular.ttf */; };
+		3A6DBE451EEADC1600C69E39 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A6DBE491EEADC1600C69E39 /* Localizable.strings */; };
+		3A6DBE461EEADC1600C69E39 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A6DBE491EEADC1600C69E39 /* Localizable.strings */; };
+		3A6DBE471EEADC1600C69E39 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A6DBE491EEADC1600C69E39 /* Localizable.strings */; };
+		3A6F9B931EBA3B470063FB06 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F9B921EBA3B470063FB06 /* XMLReader.m */; };
+		3A6F9B941EBA3B470063FB06 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F9B921EBA3B470063FB06 /* XMLReader.m */; };
+		3A6F9B951EBA3B470063FB06 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F9B921EBA3B470063FB06 /* XMLReader.m */; };
+		3A71EA311EA8BA240006760C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3BE8901EA652B1004306A1 /* Assets.xcassets */; };
+		3A71EA321EA8BA250006760C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3BE8901EA652B1004306A1 /* Assets.xcassets */; };
+		3A71EA3B1EA8D2ED0006760C /* GVNHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71EA3A1EA8D2ED0006760C /* GVNHomeViewController.swift */; };
+		3A71EA3C1EA8D2ED0006760C /* GVNHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71EA3A1EA8D2ED0006760C /* GVNHomeViewController.swift */; };
+		3A71EA3D1EA8D2ED0006760C /* GVNHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71EA3A1EA8D2ED0006760C /* GVNHomeViewController.swift */; };
+		3A887DEB1EE96F3D006C4240 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A887DEA1EE96F3D006C4240 /* OrderViewModel.swift */; };
+		3A887DEC1EE96F3D006C4240 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A887DEA1EE96F3D006C4240 /* OrderViewModel.swift */; };
+		3A887DED1EE96F3D006C4240 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A887DEA1EE96F3D006C4240 /* OrderViewModel.swift */; };
+		3A887DF01EE9AE01006C4240 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A887DEF1EE9AE01006C4240 /* Reachability.swift */; };
+		3A887DF11EE9AE01006C4240 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A887DEF1EE9AE01006C4240 /* Reachability.swift */; };
+		3A887DF21EE9AE01006C4240 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A887DEF1EE9AE01006C4240 /* Reachability.swift */; };
+		3A9034FA1EC46B0100FD6C60 /* UtilManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9034F91EC46B0100FD6C60 /* UtilManager.swift */; };
+		3A9034FB1EC46B0100FD6C60 /* UtilManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9034F91EC46B0100FD6C60 /* UtilManager.swift */; };
+		3A9034FC1EC46B0100FD6C60 /* UtilManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9034F91EC46B0100FD6C60 /* UtilManager.swift */; };
+		3A9034FE1EC4DCA600FD6C60 /* GVNSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9034FD1EC4DCA600FD6C60 /* GVNSettingViewController.swift */; };
+		3A9034FF1EC4DCA600FD6C60 /* GVNSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9034FD1EC4DCA600FD6C60 /* GVNSettingViewController.swift */; };
+		3A9035001EC4DCA600FD6C60 /* GVNSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9034FD1EC4DCA600FD6C60 /* GVNSettingViewController.swift */; };
+		3AA3C31B1EC1C7A4007C4DE7 /* GVNOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3C31A1EC1C7A4007C4DE7 /* GVNOrderViewController.swift */; };
+		3AA3C31C1EC1C7A4007C4DE7 /* GVNOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3C31A1EC1C7A4007C4DE7 /* GVNOrderViewController.swift */; };
+		3AA3C31D1EC1C7A4007C4DE7 /* GVNOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3C31A1EC1C7A4007C4DE7 /* GVNOrderViewController.swift */; };
+		3AA3C31F1EC1C7CB007C4DE7 /* GVNTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3C31E1EC1C7CB007C4DE7 /* GVNTransactionViewController.swift */; };
+		3AA3C3201EC1C7CB007C4DE7 /* GVNTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3C31E1EC1C7CB007C4DE7 /* GVNTransactionViewController.swift */; };
+		3AA3C3211EC1C7CB007C4DE7 /* GVNTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3C31E1EC1C7CB007C4DE7 /* GVNTransactionViewController.swift */; };
+		3AA3C3231EC1C7EB007C4DE7 /* GVNNewScreeningRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3C3221EC1C7EB007C4DE7 /* GVNNewScreeningRequestViewController.swift */; };
+		3AA3C3241EC1C7EB007C4DE7 /* GVNNewScreeningRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3C3221EC1C7EB007C4DE7 /* GVNNewScreeningRequestViewController.swift */; };
+		3AA3C3251EC1C7EB007C4DE7 /* GVNNewScreeningRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3C3221EC1C7EB007C4DE7 /* GVNNewScreeningRequestViewController.swift */; };
+		3AA3C3271EC1D8BD007C4DE7 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3C3261EC1D8BD007C4DE7 /* CustomTabBarController.swift */; };
+		3AA3C3281EC1D8BD007C4DE7 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3C3261EC1D8BD007C4DE7 /* CustomTabBarController.swift */; };
+		3AA3C3291EC1D8BD007C4DE7 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3C3261EC1D8BD007C4DE7 /* CustomTabBarController.swift */; };
+		3AA43B151ED44D75002C1B7B /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA43B141ED44D75002C1B7B /* NavigationViewModel.swift */; };
+		3AA43B161ED44D75002C1B7B /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA43B141ED44D75002C1B7B /* NavigationViewModel.swift */; };
+		3AA43B171ED44D75002C1B7B /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA43B141ED44D75002C1B7B /* NavigationViewModel.swift */; };
+		3AA43B1A1ED498D4002C1B7B /* GVNNewScreeningOrderSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA43B191ED498D4002C1B7B /* GVNNewScreeningOrderSummaryViewController.swift */; };
+		3AA43B1B1ED498D4002C1B7B /* GVNNewScreeningOrderSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA43B191ED498D4002C1B7B /* GVNNewScreeningOrderSummaryViewController.swift */; };
+		3AA43B1C1ED498D4002C1B7B /* GVNNewScreeningOrderSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA43B191ED498D4002C1B7B /* GVNNewScreeningOrderSummaryViewController.swift */; };
+		3AAEE89F1EC333FD00788324 /* GVNNewScreeningOrderBronzePackageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAEE89E1EC333FD00788324 /* GVNNewScreeningOrderBronzePackageTableViewCell.swift */; };
+		3AAEE8A01EC333FD00788324 /* GVNNewScreeningOrderBronzePackageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAEE89E1EC333FD00788324 /* GVNNewScreeningOrderBronzePackageTableViewCell.swift */; };
+		3AAEE8A11EC333FD00788324 /* GVNNewScreeningOrderBronzePackageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAEE89E1EC333FD00788324 /* GVNNewScreeningOrderBronzePackageTableViewCell.swift */; };
+		3AB02D8C1EF2A98500EE5B8E /* SwiftLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB02D8B1EF2A98500EE5B8E /* SwiftLoader.swift */; };
+		3AB02D8D1EF2A98500EE5B8E /* SwiftLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB02D8B1EF2A98500EE5B8E /* SwiftLoader.swift */; };
+		3AB02D8E1EF2A98500EE5B8E /* SwiftLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB02D8B1EF2A98500EE5B8E /* SwiftLoader.swift */; };
+		3AB02D901EF2BC6C00EE5B8E /* ScreeningRequestServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB02D8F1EF2BC6C00EE5B8E /* ScreeningRequestServices.swift */; };
+		3AB02D911EF2BC6C00EE5B8E /* ScreeningRequestServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB02D8F1EF2BC6C00EE5B8E /* ScreeningRequestServices.swift */; };
+		3AB02D921EF2BC6C00EE5B8E /* ScreeningRequestServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB02D8F1EF2BC6C00EE5B8E /* ScreeningRequestServices.swift */; };
+		3ABA27451ED6E8D90008FB4A /* ScreeningRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA27441ED6E8D90008FB4A /* ScreeningRequest.swift */; };
+		3ABA27461ED6E8D90008FB4A /* ScreeningRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA27441ED6E8D90008FB4A /* ScreeningRequest.swift */; };
+		3ABA27471ED6E8D90008FB4A /* ScreeningRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA27441ED6E8D90008FB4A /* ScreeningRequest.swift */; };
+		3ABA27491ED6E9310008FB4A /* ApplicantInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA27481ED6E9310008FB4A /* ApplicantInfo.swift */; };
+		3ABA274A1ED6E9310008FB4A /* ApplicantInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA27481ED6E9310008FB4A /* ApplicantInfo.swift */; };
+		3ABA274B1ED6E9310008FB4A /* ApplicantInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA27481ED6E9310008FB4A /* ApplicantInfo.swift */; };
+		3ABA274D1ED6E9B80008FB4A /* DriverInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA274C1ED6E9B80008FB4A /* DriverInfo.swift */; };
+		3ABA274E1ED6E9B80008FB4A /* DriverInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA274C1ED6E9B80008FB4A /* DriverInfo.swift */; };
+		3ABA274F1ED6E9B80008FB4A /* DriverInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA274C1ED6E9B80008FB4A /* DriverInfo.swift */; };
+		3ABC38141EEEDDCA009282C4 /* GVNScreeningPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC38131EEEDDCA009282C4 /* GVNScreeningPaymentViewController.swift */; };
+		3ABC38151EEEDDCA009282C4 /* GVNScreeningPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC38131EEEDDCA009282C4 /* GVNScreeningPaymentViewController.swift */; };
+		3ABC38161EEEDDCA009282C4 /* GVNScreeningPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC38131EEEDDCA009282C4 /* GVNScreeningPaymentViewController.swift */; };
+		3AC764E61EC1C07E004F4E0B /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC764DF1EC1C07E004F4E0B /* TPKeyboardAvoidingCollectionView.m */; };
+		3AC764E71EC1C07E004F4E0B /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC764DF1EC1C07E004F4E0B /* TPKeyboardAvoidingCollectionView.m */; };
+		3AC764E81EC1C07E004F4E0B /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC764DF1EC1C07E004F4E0B /* TPKeyboardAvoidingCollectionView.m */; };
+		3AC764E91EC1C07E004F4E0B /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC764E11EC1C07E004F4E0B /* TPKeyboardAvoidingScrollView.m */; };
+		3AC764EA1EC1C07E004F4E0B /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC764E11EC1C07E004F4E0B /* TPKeyboardAvoidingScrollView.m */; };
+		3AC764EB1EC1C07E004F4E0B /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC764E11EC1C07E004F4E0B /* TPKeyboardAvoidingScrollView.m */; };
+		3AC764EC1EC1C07E004F4E0B /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC764E31EC1C07E004F4E0B /* TPKeyboardAvoidingTableView.m */; };
+		3AC764ED1EC1C07E004F4E0B /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC764E31EC1C07E004F4E0B /* TPKeyboardAvoidingTableView.m */; };
+		3AC764EE1EC1C07E004F4E0B /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC764E31EC1C07E004F4E0B /* TPKeyboardAvoidingTableView.m */; };
+		3AC764EF1EC1C07E004F4E0B /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC764E51EC1C07E004F4E0B /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		3AC764F01EC1C07E004F4E0B /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC764E51EC1C07E004F4E0B /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		3AC764F11EC1C07E004F4E0B /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC764E51EC1C07E004F4E0B /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		3ACC35841ED58D0E0096BCB1 /* GVNNewScreeningOrderSummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC35831ED58D0E0096BCB1 /* GVNNewScreeningOrderSummaryTableViewCell.swift */; };
+		3ACC35851ED58D0E0096BCB1 /* GVNNewScreeningOrderSummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC35831ED58D0E0096BCB1 /* GVNNewScreeningOrderSummaryTableViewCell.swift */; };
+		3ACC35861ED58D0E0096BCB1 /* GVNNewScreeningOrderSummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC35831ED58D0E0096BCB1 /* GVNNewScreeningOrderSummaryTableViewCell.swift */; };
+		3ACC35881ED5B2540096BCB1 /* GVNNewScreeningDriverSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC35871ED5B2540096BCB1 /* GVNNewScreeningDriverSearchViewController.swift */; };
+		3ACC35891ED5B2540096BCB1 /* GVNNewScreeningDriverSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC35871ED5B2540096BCB1 /* GVNNewScreeningDriverSearchViewController.swift */; };
+		3ACC358A1ED5B2540096BCB1 /* GVNNewScreeningDriverSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC35871ED5B2540096BCB1 /* GVNNewScreeningDriverSearchViewController.swift */; };
+		3AD9389C1EC3207400A7CEAA /* GVNHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD9389B1EC3207300A7CEAA /* GVNHomeTableViewCell.swift */; };
+		3AD9389D1EC3207400A7CEAA /* GVNHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD9389B1EC3207300A7CEAA /* GVNHomeTableViewCell.swift */; };
+		3AD9389E1EC3207400A7CEAA /* GVNHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD9389B1EC3207300A7CEAA /* GVNHomeTableViewCell.swift */; };
+		3AE0D1BC1EE5784900126727 /* ScreeningOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0D1BA1EE5784900126727 /* ScreeningOrder.swift */; };
+		3AE0D1BD1EE5784900126727 /* ScreeningOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0D1BA1EE5784900126727 /* ScreeningOrder.swift */; };
+		3AE0D1BE1EE5784900126727 /* ScreeningOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0D1BA1EE5784900126727 /* ScreeningOrder.swift */; };
+		3AE0D1BF1EE5784900126727 /* ScreeningOrder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0D1BB1EE5784900126727 /* ScreeningOrder+CoreDataProperties.swift */; };
+		3AE0D1C01EE5784900126727 /* ScreeningOrder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0D1BB1EE5784900126727 /* ScreeningOrder+CoreDataProperties.swift */; };
+		3AE0D1C11EE5784900126727 /* ScreeningOrder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0D1BB1EE5784900126727 /* ScreeningOrder+CoreDataProperties.swift */; };
+		3AE0D1C31EE5995100126727 /* GVNScreeningOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0D1C21EE5995100126727 /* GVNScreeningOrderTableViewCell.swift */; };
+		3AE0D1C41EE5995100126727 /* GVNScreeningOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0D1C21EE5995100126727 /* GVNScreeningOrderTableViewCell.swift */; };
+		3AE0D1C51EE5995100126727 /* GVNScreeningOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0D1C21EE5995100126727 /* GVNScreeningOrderTableViewCell.swift */; };
+		3AE0D1C71EE5997B00126727 /* GVNDraftOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0D1C61EE5997B00126727 /* GVNDraftOrderTableViewCell.swift */; };
+		3AE0D1C81EE5997B00126727 /* GVNDraftOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0D1C61EE5997B00126727 /* GVNDraftOrderTableViewCell.swift */; };
+		3AE0D1C91EE5997B00126727 /* GVNDraftOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0D1C61EE5997B00126727 /* GVNDraftOrderTableViewCell.swift */; };
+		3AE492531EF15C8000826BCB /* AuhtenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE492521EF15C8000826BCB /* AuhtenticationViewModel.swift */; };
+		3AED06391EC9CC1A00AFCAEC /* GVNProfileSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AED06381EC9CC1A00AFCAEC /* GVNProfileSettingViewController.swift */; };
+		3AED063A1EC9CC1A00AFCAEC /* GVNProfileSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AED06381EC9CC1A00AFCAEC /* GVNProfileSettingViewController.swift */; };
+		3AED063B1EC9CC1A00AFCAEC /* GVNProfileSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AED06381EC9CC1A00AFCAEC /* GVNProfileSettingViewController.swift */; };
+		3AEF45211EF0569800171012 /* AuthenticationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEF45201EF0569800171012 /* AuthenticationServices.swift */; };
+		3AEF45221EF0569800171012 /* AuthenticationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEF45201EF0569800171012 /* AuthenticationServices.swift */; };
+		3AEF45231EF0569800171012 /* AuthenticationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEF45201EF0569800171012 /* AuthenticationServices.swift */; };
+		3AF590CB1EA8E28E0064F1D5 /* GVNLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF590CA1EA8E28E0064F1D5 /* GVNLoginViewController.swift */; };
+		3AF590CC1EA8E28E0064F1D5 /* GVNLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF590CA1EA8E28E0064F1D5 /* GVNLoginViewController.swift */; };
+		3AF590CD1EA8E28E0064F1D5 /* GVNLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF590CA1EA8E28E0064F1D5 /* GVNLoginViewController.swift */; };
+		3AF590CF1EA8EC690064F1D5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF590CE1EA8EC690064F1D5 /* User.swift */; };
+		3AF590D01EA8EC690064F1D5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF590CE1EA8EC690064F1D5 /* User.swift */; };
+		3AF590D11EA8EC690064F1D5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF590CE1EA8EC690064F1D5 /* User.swift */; };
+		3AF590D31EA8ECD40064F1D5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF590D21EA8ECD40064F1D5 /* HomeViewModel.swift */; };
+		3AF590D41EA8ECD40064F1D5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF590D21EA8ECD40064F1D5 /* HomeViewModel.swift */; };
+		3AF590D51EA8ECD40064F1D5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF590D21EA8ECD40064F1D5 /* HomeViewModel.swift */; };
+		3AF590D71EA8ECE30064F1D5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF590D61EA8ECE30064F1D5 /* LoginViewModel.swift */; };
+		3AF590D81EA8ECE30064F1D5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF590D61EA8ECE30064F1D5 /* LoginViewModel.swift */; };
+		3AF590D91EA8ECE30064F1D5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF590D61EA8ECE30064F1D5 /* LoginViewModel.swift */; };
+		3AF590DB1EA8ED930064F1D5 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF590DA1EA8ED930064F1D5 /* LoginService.swift */; };
+		3AF590DC1EA8ED930064F1D5 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF590DA1EA8ED930064F1D5 /* LoginService.swift */; };
+		3AF590DD1EA8ED930064F1D5 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF590DA1EA8ED930064F1D5 /* LoginService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A3BE89B1EA652B1004306A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3BE87E1EA652B0004306A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A3BE8851EA652B0004306A1;
+			remoteInfo = "GlobalVerificationNetwork-HUCM";
+		};
+		3A3BE8A61EA652B1004306A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3BE87E1EA652B0004306A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A3BE8851EA652B0004306A1;
+			remoteInfo = "GlobalVerificationNetwork-HUCM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A17531F1EE19A6B00C1BF8B /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		3A18C3EA1ED861890025FFF3 /* GVNNewScreeningOrderSilverPackageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNNewScreeningOrderSilverPackageTableViewCell.swift; sourceTree = "<group>"; };
+		3A18C3EE1ED861C80025FFF3 /* GVNNewScreeningOrderGoldPackageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNNewScreeningOrderGoldPackageTableViewCell.swift; sourceTree = "<group>"; };
+		3A18C3F21ED862020025FFF3 /* GVNNewScreeningOrderDriverSearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNNewScreeningOrderDriverSearchTableViewCell.swift; sourceTree = "<group>"; };
+		3A18C3F61ED86FA00025FFF3 /* GVNNewScreeningOrderBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNNewScreeningOrderBaseTableViewCell.swift; sourceTree = "<group>"; };
+		3A1C88521EDC2E3F000863E0 /* ScreeningRequestViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreeningRequestViewModel.swift; sourceTree = "<group>"; };
+		3A29BF891ECC6DE900980603 /* Norwester.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Norwester.otf; sourceTree = "<group>"; };
+		3A29BF8A1ECC6DE900980603 /* Pill-Gothic-300mg-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pill-Gothic-300mg-Regular.ttf"; sourceTree = "<group>"; };
+		3A3879741EE1D4930095B18E /* GlobalVerificationNetwork_HUCM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GlobalVerificationNetwork_HUCM.xcdatamodel; sourceTree = "<group>"; };
+		3A3BE8861EA652B1004306A1 /* GlobalVerificationNetwork-HUCM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GlobalVerificationNetwork-HUCM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3BE8891EA652B1004306A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A3BE88E1EA652B1004306A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A3BE8901EA652B1004306A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A3BE8931EA652B1004306A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A3BE8951EA652B1004306A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3BE89A1EA652B1004306A1 /* GlobalVerificationNetwork-HUCMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GlobalVerificationNetwork-HUCMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3BE89E1EA652B1004306A1 /* GlobalVerificationNetwork_HUCMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVerificationNetwork_HUCMTests.swift; sourceTree = "<group>"; };
+		3A3BE8A01EA652B1004306A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3BE8A51EA652B1004306A1 /* GlobalVerificationNetwork-HUCMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GlobalVerificationNetwork-HUCMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3BE8A91EA652B1004306A1 /* GlobalVerificationNetwork_HUCMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVerificationNetwork_HUCMUITests.swift; sourceTree = "<group>"; };
+		3A3BE8AB1EA652B1004306A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A42EEF81EC5C94300AC2072 /* GVNChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNChangePasswordViewController.swift; sourceTree = "<group>"; };
+		3A4A03841EE1D5A200EBA730 /* ApplicantDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicantDetail.swift; sourceTree = "<group>"; };
+		3A4A03851EE1D5A200EBA730 /* ApplicantDetail+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApplicantDetail+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3A4A03861EE1D5A200EBA730 /* DraftOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraftOrder.swift; sourceTree = "<group>"; };
+		3A4A03871EE1D5A200EBA730 /* DraftOrder+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DraftOrder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3A4A03881EE1D5A200EBA730 /* DriverDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverDetail.swift; sourceTree = "<group>"; };
+		3A4A03891EE1D5A200EBA730 /* DriverDetail+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverDetail+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3A5737E11EC08D2600CF21B6 /* GVNSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNSignUpViewController.swift; sourceTree = "<group>"; };
+		3A5737E51EC0AA6400CF21B6 /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		3A58A8C51ECB02E900E851D1 /* GVNNewScreeningRequestApplicantInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNNewScreeningRequestApplicantInfoViewController.swift; sourceTree = "<group>"; };
+		3A5D94081EE6B8A80010D143 /* GVNScreeningOrderDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNScreeningOrderDetailViewController.swift; sourceTree = "<group>"; };
+		3A6D42B61EC0ABF6009C12A9 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3A6D42BB1EC0ADA6009C12A9 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		3A6DBE481EEADC1600C69E39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3A6F9B901EBA3A980063FB06 /* GlobalVerificationNetwork-HUCM-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GlobalVerificationNetwork-HUCM-Bridging-Header.h"; sourceTree = "<group>"; };
+		3A6F9B911EBA3B470063FB06 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		3A6F9B921EBA3B470063FB06 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		3A71EA3A1EA8D2ED0006760C /* GVNHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNHomeViewController.swift; sourceTree = "<group>"; };
+		3A887DEA1EE96F3D006C4240 /* OrderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		3A887DEF1EE9AE01006C4240 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		3A9034F91EC46B0100FD6C60 /* UtilManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilManager.swift; sourceTree = "<group>"; };
+		3A9034FD1EC4DCA600FD6C60 /* GVNSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNSettingViewController.swift; sourceTree = "<group>"; };
+		3AA3C31A1EC1C7A4007C4DE7 /* GVNOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNOrderViewController.swift; sourceTree = "<group>"; };
+		3AA3C31E1EC1C7CB007C4DE7 /* GVNTransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNTransactionViewController.swift; sourceTree = "<group>"; };
+		3AA3C3221EC1C7EB007C4DE7 /* GVNNewScreeningRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNNewScreeningRequestViewController.swift; sourceTree = "<group>"; };
+		3AA3C3261EC1D8BD007C4DE7 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		3AA43B141ED44D75002C1B7B /* NavigationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
+		3AA43B191ED498D4002C1B7B /* GVNNewScreeningOrderSummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNNewScreeningOrderSummaryViewController.swift; sourceTree = "<group>"; };
+		3AAEE89E1EC333FD00788324 /* GVNNewScreeningOrderBronzePackageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNNewScreeningOrderBronzePackageTableViewCell.swift; sourceTree = "<group>"; };
+		3AB02D8B1EF2A98500EE5B8E /* SwiftLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftLoader.swift; sourceTree = "<group>"; };
+		3AB02D8F1EF2BC6C00EE5B8E /* ScreeningRequestServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreeningRequestServices.swift; sourceTree = "<group>"; };
+		3ABA27441ED6E8D90008FB4A /* ScreeningRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreeningRequest.swift; sourceTree = "<group>"; };
+		3ABA27481ED6E9310008FB4A /* ApplicantInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicantInfo.swift; sourceTree = "<group>"; };
+		3ABA274C1ED6E9B80008FB4A /* DriverInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverInfo.swift; sourceTree = "<group>"; };
+		3ABC38131EEEDDCA009282C4 /* GVNScreeningPaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNScreeningPaymentViewController.swift; sourceTree = "<group>"; };
+		3AC764DE1EC1C07E004F4E0B /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		3AC764DF1EC1C07E004F4E0B /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		3AC764E01EC1C07E004F4E0B /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		3AC764E11EC1C07E004F4E0B /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		3AC764E21EC1C07E004F4E0B /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		3AC764E31EC1C07E004F4E0B /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		3AC764E41EC1C07E004F4E0B /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		3AC764E51EC1C07E004F4E0B /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		3ACC35831ED58D0E0096BCB1 /* GVNNewScreeningOrderSummaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNNewScreeningOrderSummaryTableViewCell.swift; sourceTree = "<group>"; };
+		3ACC35871ED5B2540096BCB1 /* GVNNewScreeningDriverSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNNewScreeningDriverSearchViewController.swift; sourceTree = "<group>"; };
+		3AD9389B1EC3207300A7CEAA /* GVNHomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNHomeTableViewCell.swift; sourceTree = "<group>"; };
+		3AE0D1BA1EE5784900126727 /* ScreeningOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreeningOrder.swift; sourceTree = "<group>"; };
+		3AE0D1BB1EE5784900126727 /* ScreeningOrder+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScreeningOrder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3AE0D1C21EE5995100126727 /* GVNScreeningOrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNScreeningOrderTableViewCell.swift; sourceTree = "<group>"; };
+		3AE0D1C61EE5997B00126727 /* GVNDraftOrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNDraftOrderTableViewCell.swift; sourceTree = "<group>"; };
+		3AE492521EF15C8000826BCB /* AuhtenticationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuhtenticationViewModel.swift; sourceTree = "<group>"; };
+		3AED06381EC9CC1A00AFCAEC /* GVNProfileSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNProfileSettingViewController.swift; sourceTree = "<group>"; };
+		3AEF45201EF0569800171012 /* AuthenticationServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationServices.swift; sourceTree = "<group>"; };
+		3AF590CA1EA8E28E0064F1D5 /* GVNLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVNLoginViewController.swift; sourceTree = "<group>"; };
+		3AF590CE1EA8EC690064F1D5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3AF590D21EA8ECD40064F1D5 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		3AF590D61EA8ECE30064F1D5 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		3AF590DA1EA8ED930064F1D5 /* LoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A3BE8831EA652B0004306A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3BE8971EA652B1004306A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3BE8A21EA652B1004306A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A1752E11EE1970D00C1BF8B /* LocalDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				3A38792B1EE1D1110095B18E /* ManagedObjectSubClass */,
+				3A17531F1EE19A6B00C1BF8B /* CoreDataManager.swift */,
+				3A3879741EE1D4930095B18E /* GlobalVerificationNetwork_HUCM.xcdatamodel */,
+			);
+			path = LocalDatabase;
+			sourceTree = "<group>";
+		};
+		3A38792B1EE1D1110095B18E /* ManagedObjectSubClass */ = {
+			isa = PBXGroup;
+			children = (
+				3A4A03841EE1D5A200EBA730 /* ApplicantDetail.swift */,
+				3A4A03851EE1D5A200EBA730 /* ApplicantDetail+CoreDataProperties.swift */,
+				3A4A03861EE1D5A200EBA730 /* DraftOrder.swift */,
+				3A4A03871EE1D5A200EBA730 /* DraftOrder+CoreDataProperties.swift */,
+				3A4A03881EE1D5A200EBA730 /* DriverDetail.swift */,
+				3A4A03891EE1D5A200EBA730 /* DriverDetail+CoreDataProperties.swift */,
+				3AE0D1BA1EE5784900126727 /* ScreeningOrder.swift */,
+				3AE0D1BB1EE5784900126727 /* ScreeningOrder+CoreDataProperties.swift */,
+			);
+			path = ManagedObjectSubClass;
+			sourceTree = "<group>";
+		};
+		3A3BE87D1EA652B0004306A1 = {
+			isa = PBXGroup;
+			children = (
+				3A3BE8881EA652B1004306A1 /* GlobalVerificationNetwork-HUCM */,
+				3A3BE89D1EA652B1004306A1 /* GlobalVerificationNetwork-HUCMTests */,
+				3A3BE8A81EA652B1004306A1 /* GlobalVerificationNetwork-HUCMUITests */,
+				3A3BE8871EA652B1004306A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A3BE8871EA652B1004306A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A3BE8861EA652B1004306A1 /* GlobalVerificationNetwork-HUCM.app */,
+				3A3BE89A1EA652B1004306A1 /* GlobalVerificationNetwork-HUCMTests.xctest */,
+				3A3BE8A51EA652B1004306A1 /* GlobalVerificationNetwork-HUCMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A3BE8881EA652B1004306A1 /* GlobalVerificationNetwork-HUCM */ = {
+			isa = PBXGroup;
+			children = (
+				3A71EA361EA8D2640006760C /* Utility */,
+				3A1752E11EE1970D00C1BF8B /* LocalDatabase */,
+				3A71EA341EA8D2640006760C /* NetworkManager */,
+				3A71EA351EA8D2640006760C /* ServiceManager */,
+				3A71EA331EA8D2640006760C /* Model */,
+				3A71EA371EA8D2640006760C /* View */,
+				3A71EA391EA8D2640006760C /* ViewModel */,
+				3A71EA381EA8D2640006760C /* ViewController */,
+				3A3BE8891EA652B1004306A1 /* AppDelegate.swift */,
+				3A3BE88D1EA652B1004306A1 /* Main.storyboard */,
+				3A3BE8901EA652B1004306A1 /* Assets.xcassets */,
+				3A3BE8921EA652B1004306A1 /* LaunchScreen.storyboard */,
+				3A3BE8951EA652B1004306A1 /* Info.plist */,
+				3A6F9B8F1EBA3A2F0063FB06 /* ObjectiveC-Bridging-Header */,
+				3A6DBE491EEADC1600C69E39 /* Localizable.strings */,
+			);
+			path = "GlobalVerificationNetwork-HUCM";
+			sourceTree = "<group>";
+		};
+		3A3BE89D1EA652B1004306A1 /* GlobalVerificationNetwork-HUCMTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A3BE89E1EA652B1004306A1 /* GlobalVerificationNetwork_HUCMTests.swift */,
+				3A3BE8A01EA652B1004306A1 /* Info.plist */,
+			);
+			path = "GlobalVerificationNetwork-HUCMTests";
+			sourceTree = "<group>";
+		};
+		3A3BE8A81EA652B1004306A1 /* GlobalVerificationNetwork-HUCMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A3BE8A91EA652B1004306A1 /* GlobalVerificationNetwork_HUCMUITests.swift */,
+				3A3BE8AB1EA652B1004306A1 /* Info.plist */,
+			);
+			path = "GlobalVerificationNetwork-HUCMUITests";
+			sourceTree = "<group>";
+		};
+		3A6D42B51EC0ABDD009C12A9 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				3A6D42B61EC0ABF6009C12A9 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		3A6D42BA1EC0AD9D009C12A9 /* Font_Family */ = {
+			isa = PBXGroup;
+			children = (
+				3A6D42BB1EC0ADA6009C12A9 /* Roboto-Regular.ttf */,
+				3A29BF891ECC6DE900980603 /* Norwester.otf */,
+				3A29BF8A1ECC6DE900980603 /* Pill-Gothic-300mg-Regular.ttf */,
+			);
+			path = Font_Family;
+			sourceTree = "<group>";
+		};
+		3A6F9B8A1EBA1EA30063FB06 /* XmlParser */ = {
+			isa = PBXGroup;
+			children = (
+				3A6F9B911EBA3B470063FB06 /* XMLReader.h */,
+				3A6F9B921EBA3B470063FB06 /* XMLReader.m */,
+			);
+			path = XmlParser;
+			sourceTree = "<group>";
+		};
+		3A6F9B8F1EBA3A2F0063FB06 /* ObjectiveC-Bridging-Header */ = {
+			isa = PBXGroup;
+			children = (
+				3A6F9B901EBA3A980063FB06 /* GlobalVerificationNetwork-HUCM-Bridging-Header.h */,
+			);
+			path = "ObjectiveC-Bridging-Header";
+			sourceTree = "<group>";
+		};
+		3A71EA331EA8D2640006760C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3ABA27441ED6E8D90008FB4A /* ScreeningRequest.swift */,
+				3ABA27481ED6E9310008FB4A /* ApplicantInfo.swift */,
+				3ABA274C1ED6E9B80008FB4A /* DriverInfo.swift */,
+				3AF590CE1EA8EC690064F1D5 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A71EA341EA8D2640006760C /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		3A71EA351EA8D2640006760C /* ServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				3AF590DA1EA8ED930064F1D5 /* LoginService.swift */,
+				3AEF45201EF0569800171012 /* AuthenticationServices.swift */,
+				3AB02D8F1EF2BC6C00EE5B8E /* ScreeningRequestServices.swift */,
+			);
+			path = ServiceManager;
+			sourceTree = "<group>";
+		};
+		3A71EA361EA8D2640006760C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3AB02D8A1EF2A97800EE5B8E /* Loader */,
+				3A887DEE1EE9ADF7006C4240 /* Reachability */,
+				3A9034F81EC46AF900FD6C60 /* UtilManager */,
+				3A6D42BA1EC0AD9D009C12A9 /* Font_Family */,
+				3A6D42B51EC0ABDD009C12A9 /* Constant */,
+				3A6F9B8A1EBA1EA30063FB06 /* XmlParser */,
+				3AC764DD1EC1C06F004F4E0B /* TPKeyboardAvoiding */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		3A71EA371EA8D2640006760C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AD9389B1EC3207300A7CEAA /* GVNHomeTableViewCell.swift */,
+				3AE0D1C21EE5995100126727 /* GVNScreeningOrderTableViewCell.swift */,
+				3AE0D1C61EE5997B00126727 /* GVNDraftOrderTableViewCell.swift */,
+				3A18C3F61ED86FA00025FFF3 /* GVNNewScreeningOrderBaseTableViewCell.swift */,
+				3AAEE89E1EC333FD00788324 /* GVNNewScreeningOrderBronzePackageTableViewCell.swift */,
+				3A18C3EA1ED861890025FFF3 /* GVNNewScreeningOrderSilverPackageTableViewCell.swift */,
+				3A18C3EE1ED861C80025FFF3 /* GVNNewScreeningOrderGoldPackageTableViewCell.swift */,
+				3A18C3F21ED862020025FFF3 /* GVNNewScreeningOrderDriverSearchTableViewCell.swift */,
+				3ACC35831ED58D0E0096BCB1 /* GVNNewScreeningOrderSummaryTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A71EA381EA8D2640006760C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3AA3C3261EC1D8BD007C4DE7 /* CustomTabBarController.swift */,
+				3A5737E51EC0AA6400CF21B6 /* BaseController.swift */,
+				3AF590CA1EA8E28E0064F1D5 /* GVNLoginViewController.swift */,
+				3A5737E11EC08D2600CF21B6 /* GVNSignUpViewController.swift */,
+				3A71EA3A1EA8D2ED0006760C /* GVNHomeViewController.swift */,
+				3AA3C3221EC1C7EB007C4DE7 /* GVNNewScreeningRequestViewController.swift */,
+				3AA3C31A1EC1C7A4007C4DE7 /* GVNOrderViewController.swift */,
+				3A5D94081EE6B8A80010D143 /* GVNScreeningOrderDetailViewController.swift */,
+				3AA3C31E1EC1C7CB007C4DE7 /* GVNTransactionViewController.swift */,
+				3A58A8C51ECB02E900E851D1 /* GVNNewScreeningRequestApplicantInfoViewController.swift */,
+				3ACC35871ED5B2540096BCB1 /* GVNNewScreeningDriverSearchViewController.swift */,
+				3AA43B191ED498D4002C1B7B /* GVNNewScreeningOrderSummaryViewController.swift */,
+				3ABC38131EEEDDCA009282C4 /* GVNScreeningPaymentViewController.swift */,
+				3A9034FD1EC4DCA600FD6C60 /* GVNSettingViewController.swift */,
+				3AED06381EC9CC1A00AFCAEC /* GVNProfileSettingViewController.swift */,
+				3A42EEF81EC5C94300AC2072 /* GVNChangePasswordViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3A71EA391EA8D2640006760C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3AA43B141ED44D75002C1B7B /* NavigationViewModel.swift */,
+				3AF590D21EA8ECD40064F1D5 /* HomeViewModel.swift */,
+				3AF590D61EA8ECE30064F1D5 /* LoginViewModel.swift */,
+				3A1C88521EDC2E3F000863E0 /* ScreeningRequestViewModel.swift */,
+				3A887DEA1EE96F3D006C4240 /* OrderViewModel.swift */,
+				3AE492521EF15C8000826BCB /* AuhtenticationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3A887DEE1EE9ADF7006C4240 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				3A887DEF1EE9AE01006C4240 /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		3A9034F81EC46AF900FD6C60 /* UtilManager */ = {
+			isa = PBXGroup;
+			children = (
+				3A9034F91EC46B0100FD6C60 /* UtilManager.swift */,
+			);
+			path = UtilManager;
+			sourceTree = "<group>";
+		};
+		3AB02D8A1EF2A97800EE5B8E /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				3AB02D8B1EF2A98500EE5B8E /* SwiftLoader.swift */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		3AC764DD1EC1C06F004F4E0B /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				3AC764DE1EC1C07E004F4E0B /* TPKeyboardAvoidingCollectionView.h */,
+				3AC764DF1EC1C07E004F4E0B /* TPKeyboardAvoidingCollectionView.m */,
+				3AC764E01EC1C07E004F4E0B /* TPKeyboardAvoidingScrollView.h */,
+				3AC764E11EC1C07E004F4E0B /* TPKeyboardAvoidingScrollView.m */,
+				3AC764E21EC1C07E004F4E0B /* TPKeyboardAvoidingTableView.h */,
+				3AC764E31EC1C07E004F4E0B /* TPKeyboardAvoidingTableView.m */,
+				3AC764E41EC1C07E004F4E0B /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				3AC764E51EC1C07E004F4E0B /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A3BE8851EA652B0004306A1 /* GlobalVerificationNetwork-HUCM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3BE8AE1EA652B1004306A1 /* Build configuration list for PBXNativeTarget "GlobalVerificationNetwork-HUCM" */;
+			buildPhases = (
+				3A3BE8821EA652B0004306A1 /* Sources */,
+				3A3BE8831EA652B0004306A1 /* Frameworks */,
+				3A3BE8841EA652B0004306A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GlobalVerificationNetwork-HUCM";
+			productName = "GlobalVerificationNetwork-HUCM";
+			productReference = 3A3BE8861EA652B1004306A1 /* GlobalVerificationNetwork-HUCM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A3BE8991EA652B1004306A1 /* GlobalVerificationNetwork-HUCMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3BE8B11EA652B1004306A1 /* Build configuration list for PBXNativeTarget "GlobalVerificationNetwork-HUCMTests" */;
+			buildPhases = (
+				3A3BE8961EA652B1004306A1 /* Sources */,
+				3A3BE8971EA652B1004306A1 /* Frameworks */,
+				3A3BE8981EA652B1004306A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A3BE89C1EA652B1004306A1 /* PBXTargetDependency */,
+			);
+			name = "GlobalVerificationNetwork-HUCMTests";
+			productName = "GlobalVerificationNetwork-HUCMTests";
+			productReference = 3A3BE89A1EA652B1004306A1 /* GlobalVerificationNetwork-HUCMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A3BE8A41EA652B1004306A1 /* GlobalVerificationNetwork-HUCMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3BE8B41EA652B1004306A1 /* Build configuration list for PBXNativeTarget "GlobalVerificationNetwork-HUCMUITests" */;
+			buildPhases = (
+				3A3BE8A11EA652B1004306A1 /* Sources */,
+				3A3BE8A21EA652B1004306A1 /* Frameworks */,
+				3A3BE8A31EA652B1004306A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A3BE8A71EA652B1004306A1 /* PBXTargetDependency */,
+			);
+			name = "GlobalVerificationNetwork-HUCMUITests";
+			productName = "GlobalVerificationNetwork-HUCMUITests";
+			productReference = 3A3BE8A51EA652B1004306A1 /* GlobalVerificationNetwork-HUCMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A3BE87E1EA652B0004306A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Chetu;
+				TargetAttributes = {
+					3A3BE8851EA652B0004306A1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					3A3BE8991EA652B1004306A1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A3BE8851EA652B0004306A1;
+					};
+					3A3BE8A41EA652B1004306A1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A3BE8851EA652B0004306A1;
+					};
+				};
+			};
+			buildConfigurationList = 3A3BE8811EA652B0004306A1 /* Build configuration list for PBXProject "GlobalVerificationNetwork-HUCM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A3BE87D1EA652B0004306A1;
+			productRefGroup = 3A3BE8871EA652B1004306A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A3BE8851EA652B0004306A1 /* GlobalVerificationNetwork-HUCM */,
+				3A3BE8991EA652B1004306A1 /* GlobalVerificationNetwork-HUCMTests */,
+				3A3BE8A41EA652B1004306A1 /* GlobalVerificationNetwork-HUCMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A3BE8841EA652B0004306A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3BE8941EA652B1004306A1 /* LaunchScreen.storyboard in Resources */,
+				3A29BF8E1ECC6DE900980603 /* Pill-Gothic-300mg-Regular.ttf in Resources */,
+				3A3BE8911EA652B1004306A1 /* Assets.xcassets in Resources */,
+				3A6DBE451EEADC1600C69E39 /* Localizable.strings in Resources */,
+				3A6D42BC1EC0ADA6009C12A9 /* Roboto-Regular.ttf in Resources */,
+				3A29BF8B1ECC6DE900980603 /* Norwester.otf in Resources */,
+				3A3BE88F1EA652B1004306A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3BE8981EA652B1004306A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6DBE461EEADC1600C69E39 /* Localizable.strings in Resources */,
+				3A6D42BD1EC0ADA6009C12A9 /* Roboto-Regular.ttf in Resources */,
+				3A29BF8F1ECC6DE900980603 /* Pill-Gothic-300mg-Regular.ttf in Resources */,
+				3A71EA311EA8BA240006760C /* Assets.xcassets in Resources */,
+				3A29BF8C1ECC6DE900980603 /* Norwester.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3BE8A31EA652B1004306A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6DBE471EEADC1600C69E39 /* Localizable.strings in Resources */,
+				3A6D42BE1EC0ADA6009C12A9 /* Roboto-Regular.ttf in Resources */,
+				3A29BF901ECC6DE900980603 /* Pill-Gothic-300mg-Regular.ttf in Resources */,
+				3A71EA321EA8BA250006760C /* Assets.xcassets in Resources */,
+				3A29BF8D1ECC6DE900980603 /* Norwester.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A3BE8821EA652B0004306A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC764E91EC1C07E004F4E0B /* TPKeyboardAvoidingScrollView.m in Sources */,
+				3AE0D1C31EE5995100126727 /* GVNScreeningOrderTableViewCell.swift in Sources */,
+				3A4A03961EE1D5A200EBA730 /* DriverDetail.swift in Sources */,
+				3AF590CF1EA8EC690064F1D5 /* User.swift in Sources */,
+				3AA43B151ED44D75002C1B7B /* NavigationViewModel.swift in Sources */,
+				3AEF45211EF0569800171012 /* AuthenticationServices.swift in Sources */,
+				3A887DF01EE9AE01006C4240 /* Reachability.swift in Sources */,
+				3AA3C3271EC1D8BD007C4DE7 /* CustomTabBarController.swift in Sources */,
+				3A18C3F71ED86FA00025FFF3 /* GVNNewScreeningOrderBaseTableViewCell.swift in Sources */,
+				3AA3C3231EC1C7EB007C4DE7 /* GVNNewScreeningRequestViewController.swift in Sources */,
+				3AE0D1BF1EE5784900126727 /* ScreeningOrder+CoreDataProperties.swift in Sources */,
+				3ACC35841ED58D0E0096BCB1 /* GVNNewScreeningOrderSummaryTableViewCell.swift in Sources */,
+				3AAEE89F1EC333FD00788324 /* GVNNewScreeningOrderBronzePackageTableViewCell.swift in Sources */,
+				3ABC38141EEEDDCA009282C4 /* GVNScreeningPaymentViewController.swift in Sources */,
+				3A18C3EB1ED861890025FFF3 /* GVNNewScreeningOrderSilverPackageTableViewCell.swift in Sources */,
+				3AD9389C1EC3207400A7CEAA /* GVNHomeTableViewCell.swift in Sources */,
+				3A71EA3B1EA8D2ED0006760C /* GVNHomeViewController.swift in Sources */,
+				3A5737E61EC0AA6400CF21B6 /* BaseController.swift in Sources */,
+				3AB02D8C1EF2A98500EE5B8E /* SwiftLoader.swift in Sources */,
+				3A18C3F31ED862020025FFF3 /* GVNNewScreeningOrderDriverSearchTableViewCell.swift in Sources */,
+				3AC764EF1EC1C07E004F4E0B /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				3A4A03901EE1D5A200EBA730 /* DraftOrder.swift in Sources */,
+				3A5737E21EC08D2600CF21B6 /* GVNSignUpViewController.swift in Sources */,
+				3A6F9B931EBA3B470063FB06 /* XMLReader.m in Sources */,
+				3A3879751EE1D4930095B18E /* GlobalVerificationNetwork_HUCM.xcdatamodel in Sources */,
+				3ABA274D1ED6E9B80008FB4A /* DriverInfo.swift in Sources */,
+				3AF590D71EA8ECE30064F1D5 /* LoginViewModel.swift in Sources */,
+				3A887DEB1EE96F3D006C4240 /* OrderViewModel.swift in Sources */,
+				3AF590CB1EA8E28E0064F1D5 /* GVNLoginViewController.swift in Sources */,
+				3AE492531EF15C8000826BCB /* AuhtenticationViewModel.swift in Sources */,
+				3A58A8C61ECB02E900E851D1 /* GVNNewScreeningRequestApplicantInfoViewController.swift in Sources */,
+				3AF590D31EA8ECD40064F1D5 /* HomeViewModel.swift in Sources */,
+				3AC764EC1EC1C07E004F4E0B /* TPKeyboardAvoidingTableView.m in Sources */,
+				3A9034FA1EC46B0100FD6C60 /* UtilManager.swift in Sources */,
+				3A9034FE1EC4DCA600FD6C60 /* GVNSettingViewController.swift in Sources */,
+				3AE0D1BC1EE5784900126727 /* ScreeningOrder.swift in Sources */,
+				3A18C3EF1ED861C80025FFF3 /* GVNNewScreeningOrderGoldPackageTableViewCell.swift in Sources */,
+				3AED06391EC9CC1A00AFCAEC /* GVNProfileSettingViewController.swift in Sources */,
+				3AE0D1C71EE5997B00126727 /* GVNDraftOrderTableViewCell.swift in Sources */,
+				3ABA27451ED6E8D90008FB4A /* ScreeningRequest.swift in Sources */,
+				3AB02D901EF2BC6C00EE5B8E /* ScreeningRequestServices.swift in Sources */,
+				3ABA27491ED6E9310008FB4A /* ApplicantInfo.swift in Sources */,
+				3A4A038D1EE1D5A200EBA730 /* ApplicantDetail+CoreDataProperties.swift in Sources */,
+				3A5D94091EE6B8A80010D143 /* GVNScreeningOrderDetailViewController.swift in Sources */,
+				3A4A038A1EE1D5A200EBA730 /* ApplicantDetail.swift in Sources */,
+				3AA43B1A1ED498D4002C1B7B /* GVNNewScreeningOrderSummaryViewController.swift in Sources */,
+				3A6D42B71EC0ABF6009C12A9 /* Constant.swift in Sources */,
+				3A3BE88A1EA652B1004306A1 /* AppDelegate.swift in Sources */,
+				3A4A03991EE1D5A200EBA730 /* DriverDetail+CoreDataProperties.swift in Sources */,
+				3A1C88531EDC2E3F000863E0 /* ScreeningRequestViewModel.swift in Sources */,
+				3A42EEF91EC5C94300AC2072 /* GVNChangePasswordViewController.swift in Sources */,
+				3A1753201EE19A6B00C1BF8B /* CoreDataManager.swift in Sources */,
+				3AA3C31F1EC1C7CB007C4DE7 /* GVNTransactionViewController.swift in Sources */,
+				3AA3C31B1EC1C7A4007C4DE7 /* GVNOrderViewController.swift in Sources */,
+				3AC764E61EC1C07E004F4E0B /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				3ACC35881ED5B2540096BCB1 /* GVNNewScreeningDriverSearchViewController.swift in Sources */,
+				3A4A03931EE1D5A200EBA730 /* DraftOrder+CoreDataProperties.swift in Sources */,
+				3AF590DB1EA8ED930064F1D5 /* LoginService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3BE8961EA652B1004306A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC764EA1EC1C07E004F4E0B /* TPKeyboardAvoidingScrollView.m in Sources */,
+				3AE0D1C41EE5995100126727 /* GVNScreeningOrderTableViewCell.swift in Sources */,
+				3A4A03971EE1D5A200EBA730 /* DriverDetail.swift in Sources */,
+				3AF590D01EA8EC690064F1D5 /* User.swift in Sources */,
+				3AA43B161ED44D75002C1B7B /* NavigationViewModel.swift in Sources */,
+				3AEF45221EF0569800171012 /* AuthenticationServices.swift in Sources */,
+				3A887DF11EE9AE01006C4240 /* Reachability.swift in Sources */,
+				3AA3C3281EC1D8BD007C4DE7 /* CustomTabBarController.swift in Sources */,
+				3A18C3F81ED86FA00025FFF3 /* GVNNewScreeningOrderBaseTableViewCell.swift in Sources */,
+				3AA3C3241EC1C7EB007C4DE7 /* GVNNewScreeningRequestViewController.swift in Sources */,
+				3AE0D1C01EE5784900126727 /* ScreeningOrder+CoreDataProperties.swift in Sources */,
+				3ACC35851ED58D0E0096BCB1 /* GVNNewScreeningOrderSummaryTableViewCell.swift in Sources */,
+				3AB02D911EF2BC6C00EE5B8E /* ScreeningRequestServices.swift in Sources */,
+				3AAEE8A01EC333FD00788324 /* GVNNewScreeningOrderBronzePackageTableViewCell.swift in Sources */,
+				3ABC38151EEEDDCA009282C4 /* GVNScreeningPaymentViewController.swift in Sources */,
+				3A18C3EC1ED861890025FFF3 /* GVNNewScreeningOrderSilverPackageTableViewCell.swift in Sources */,
+				3AD9389D1EC3207400A7CEAA /* GVNHomeTableViewCell.swift in Sources */,
+				3A3BE89F1EA652B1004306A1 /* GlobalVerificationNetwork_HUCMTests.swift in Sources */,
+				3A5737E71EC0AA6400CF21B6 /* BaseController.swift in Sources */,
+				3A18C3F41ED862020025FFF3 /* GVNNewScreeningOrderDriverSearchTableViewCell.swift in Sources */,
+				3AC764F01EC1C07E004F4E0B /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				3A4A03911EE1D5A200EBA730 /* DraftOrder.swift in Sources */,
+				3A5737E31EC08D2600CF21B6 /* GVNSignUpViewController.swift in Sources */,
+				3A6F9B941EBA3B470063FB06 /* XMLReader.m in Sources */,
+				3A3879761EE1D4930095B18E /* GlobalVerificationNetwork_HUCM.xcdatamodel in Sources */,
+				3ABA274E1ED6E9B80008FB4A /* DriverInfo.swift in Sources */,
+				3AF590D81EA8ECE30064F1D5 /* LoginViewModel.swift in Sources */,
+				3A887DEC1EE96F3D006C4240 /* OrderViewModel.swift in Sources */,
+				3AF590CC1EA8E28E0064F1D5 /* GVNLoginViewController.swift in Sources */,
+				3A58A8C71ECB02E900E851D1 /* GVNNewScreeningRequestApplicantInfoViewController.swift in Sources */,
+				3AF590D41EA8ECD40064F1D5 /* HomeViewModel.swift in Sources */,
+				3AC764ED1EC1C07E004F4E0B /* TPKeyboardAvoidingTableView.m in Sources */,
+				3A9034FB1EC46B0100FD6C60 /* UtilManager.swift in Sources */,
+				3AB02D8D1EF2A98500EE5B8E /* SwiftLoader.swift in Sources */,
+				3A9034FF1EC4DCA600FD6C60 /* GVNSettingViewController.swift in Sources */,
+				3AE0D1BD1EE5784900126727 /* ScreeningOrder.swift in Sources */,
+				3A18C3F01ED861C80025FFF3 /* GVNNewScreeningOrderGoldPackageTableViewCell.swift in Sources */,
+				3AED063A1EC9CC1A00AFCAEC /* GVNProfileSettingViewController.swift in Sources */,
+				3AE0D1C81EE5997B00126727 /* GVNDraftOrderTableViewCell.swift in Sources */,
+				3ABA27461ED6E8D90008FB4A /* ScreeningRequest.swift in Sources */,
+				3ABA274A1ED6E9310008FB4A /* ApplicantInfo.swift in Sources */,
+				3A4A038E1EE1D5A200EBA730 /* ApplicantDetail+CoreDataProperties.swift in Sources */,
+				3A5D940A1EE6B8A80010D143 /* GVNScreeningOrderDetailViewController.swift in Sources */,
+				3A4A038B1EE1D5A200EBA730 /* ApplicantDetail.swift in Sources */,
+				3AA43B1B1ED498D4002C1B7B /* GVNNewScreeningOrderSummaryViewController.swift in Sources */,
+				3A6D42B81EC0ABF6009C12A9 /* Constant.swift in Sources */,
+				3A71EA3C1EA8D2ED0006760C /* GVNHomeViewController.swift in Sources */,
+				3A4A039A1EE1D5A200EBA730 /* DriverDetail+CoreDataProperties.swift in Sources */,
+				3A1C88541EDC2E3F000863E0 /* ScreeningRequestViewModel.swift in Sources */,
+				3A42EEFA1EC5C94300AC2072 /* GVNChangePasswordViewController.swift in Sources */,
+				3A1753211EE19A6B00C1BF8B /* CoreDataManager.swift in Sources */,
+				3AA3C3201EC1C7CB007C4DE7 /* GVNTransactionViewController.swift in Sources */,
+				3AA3C31C1EC1C7A4007C4DE7 /* GVNOrderViewController.swift in Sources */,
+				3AC764E71EC1C07E004F4E0B /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				3ACC35891ED5B2540096BCB1 /* GVNNewScreeningDriverSearchViewController.swift in Sources */,
+				3A4A03941EE1D5A200EBA730 /* DraftOrder+CoreDataProperties.swift in Sources */,
+				3AF590DC1EA8ED930064F1D5 /* LoginService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3BE8A11EA652B1004306A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC764EB1EC1C07E004F4E0B /* TPKeyboardAvoidingScrollView.m in Sources */,
+				3AE0D1C51EE5995100126727 /* GVNScreeningOrderTableViewCell.swift in Sources */,
+				3A4A03981EE1D5A200EBA730 /* DriverDetail.swift in Sources */,
+				3AF590D11EA8EC690064F1D5 /* User.swift in Sources */,
+				3AA43B171ED44D75002C1B7B /* NavigationViewModel.swift in Sources */,
+				3AEF45231EF0569800171012 /* AuthenticationServices.swift in Sources */,
+				3A887DF21EE9AE01006C4240 /* Reachability.swift in Sources */,
+				3AA3C3291EC1D8BD007C4DE7 /* CustomTabBarController.swift in Sources */,
+				3A18C3F91ED86FA00025FFF3 /* GVNNewScreeningOrderBaseTableViewCell.swift in Sources */,
+				3AA3C3251EC1C7EB007C4DE7 /* GVNNewScreeningRequestViewController.swift in Sources */,
+				3AE0D1C11EE5784900126727 /* ScreeningOrder+CoreDataProperties.swift in Sources */,
+				3ACC35861ED58D0E0096BCB1 /* GVNNewScreeningOrderSummaryTableViewCell.swift in Sources */,
+				3AB02D921EF2BC6C00EE5B8E /* ScreeningRequestServices.swift in Sources */,
+				3AAEE8A11EC333FD00788324 /* GVNNewScreeningOrderBronzePackageTableViewCell.swift in Sources */,
+				3ABC38161EEEDDCA009282C4 /* GVNScreeningPaymentViewController.swift in Sources */,
+				3A18C3ED1ED861890025FFF3 /* GVNNewScreeningOrderSilverPackageTableViewCell.swift in Sources */,
+				3AD9389E1EC3207400A7CEAA /* GVNHomeTableViewCell.swift in Sources */,
+				3A3BE8AA1EA652B1004306A1 /* GlobalVerificationNetwork_HUCMUITests.swift in Sources */,
+				3A5737E81EC0AA6400CF21B6 /* BaseController.swift in Sources */,
+				3A18C3F51ED862020025FFF3 /* GVNNewScreeningOrderDriverSearchTableViewCell.swift in Sources */,
+				3AC764F11EC1C07E004F4E0B /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				3A4A03921EE1D5A200EBA730 /* DraftOrder.swift in Sources */,
+				3A5737E41EC08D2600CF21B6 /* GVNSignUpViewController.swift in Sources */,
+				3A6F9B951EBA3B470063FB06 /* XMLReader.m in Sources */,
+				3A3879771EE1D4930095B18E /* GlobalVerificationNetwork_HUCM.xcdatamodel in Sources */,
+				3ABA274F1ED6E9B80008FB4A /* DriverInfo.swift in Sources */,
+				3AF590D91EA8ECE30064F1D5 /* LoginViewModel.swift in Sources */,
+				3A887DED1EE96F3D006C4240 /* OrderViewModel.swift in Sources */,
+				3AF590CD1EA8E28E0064F1D5 /* GVNLoginViewController.swift in Sources */,
+				3A58A8C81ECB02E900E851D1 /* GVNNewScreeningRequestApplicantInfoViewController.swift in Sources */,
+				3AF590D51EA8ECD40064F1D5 /* HomeViewModel.swift in Sources */,
+				3AC764EE1EC1C07E004F4E0B /* TPKeyboardAvoidingTableView.m in Sources */,
+				3A9034FC1EC46B0100FD6C60 /* UtilManager.swift in Sources */,
+				3AB02D8E1EF2A98500EE5B8E /* SwiftLoader.swift in Sources */,
+				3A9035001EC4DCA600FD6C60 /* GVNSettingViewController.swift in Sources */,
+				3AE0D1BE1EE5784900126727 /* ScreeningOrder.swift in Sources */,
+				3A18C3F11ED861C80025FFF3 /* GVNNewScreeningOrderGoldPackageTableViewCell.swift in Sources */,
+				3AED063B1EC9CC1A00AFCAEC /* GVNProfileSettingViewController.swift in Sources */,
+				3AE0D1C91EE5997B00126727 /* GVNDraftOrderTableViewCell.swift in Sources */,
+				3ABA27471ED6E8D90008FB4A /* ScreeningRequest.swift in Sources */,
+				3ABA274B1ED6E9310008FB4A /* ApplicantInfo.swift in Sources */,
+				3A4A038F1EE1D5A200EBA730 /* ApplicantDetail+CoreDataProperties.swift in Sources */,
+				3A5D940B1EE6B8A80010D143 /* GVNScreeningOrderDetailViewController.swift in Sources */,
+				3A4A038C1EE1D5A200EBA730 /* ApplicantDetail.swift in Sources */,
+				3AA43B1C1ED498D4002C1B7B /* GVNNewScreeningOrderSummaryViewController.swift in Sources */,
+				3A6D42B91EC0ABF6009C12A9 /* Constant.swift in Sources */,
+				3A71EA3D1EA8D2ED0006760C /* GVNHomeViewController.swift in Sources */,
+				3A4A039B1EE1D5A200EBA730 /* DriverDetail+CoreDataProperties.swift in Sources */,
+				3A1C88551EDC2E3F000863E0 /* ScreeningRequestViewModel.swift in Sources */,
+				3A42EEFB1EC5C94300AC2072 /* GVNChangePasswordViewController.swift in Sources */,
+				3A1753221EE19A6B00C1BF8B /* CoreDataManager.swift in Sources */,
+				3AA3C3211EC1C7CB007C4DE7 /* GVNTransactionViewController.swift in Sources */,
+				3AA3C31D1EC1C7A4007C4DE7 /* GVNOrderViewController.swift in Sources */,
+				3AC764E81EC1C07E004F4E0B /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				3ACC358A1ED5B2540096BCB1 /* GVNNewScreeningDriverSearchViewController.swift in Sources */,
+				3A4A03951EE1D5A200EBA730 /* DraftOrder+CoreDataProperties.swift in Sources */,
+				3AF590DD1EA8ED930064F1D5 /* LoginService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A3BE89C1EA652B1004306A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A3BE8851EA652B0004306A1 /* GlobalVerificationNetwork-HUCM */;
+			targetProxy = 3A3BE89B1EA652B1004306A1 /* PBXContainerItemProxy */;
+		};
+		3A3BE8A71EA652B1004306A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A3BE8851EA652B0004306A1 /* GlobalVerificationNetwork-HUCM */;
+			targetProxy = 3A3BE8A61EA652B1004306A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A3BE88D1EA652B1004306A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A3BE88E1EA652B1004306A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A3BE8921EA652B1004306A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A3BE8931EA652B1004306A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3A6DBE491EEADC1600C69E39 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A6DBE481EEADC1600C69E39 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A3BE8AC1EA652B1004306A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chetu/Documents/GlobalVerificationNetwork-HUCM/GlobalVerificationNetwork-HUCM/ObjectiveC-Bridging-Header/GlobalVerificationNetwork-HUCM-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A3BE8AD1EA652B1004306A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chetu/Documents/GlobalVerificationNetwork-HUCM/GlobalVerificationNetwork-HUCM/ObjectiveC-Bridging-Header/GlobalVerificationNetwork-HUCM-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A3BE8AF1EA652B1004306A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "GlobalVerificationNetwork-HUCM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dummy.keywords.GlobalVerificationNetwork-HUCM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chetu/Documents/GlobalVerificationNetwork-HUCM/GlobalVerificationNetwork-HUCM/ObjectiveC-Bridging-Header/GlobalVerificationNetwork-HUCM-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A3BE8B01EA652B1004306A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "GlobalVerificationNetwork-HUCM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dummy.keywords.GlobalVerificationNetwork-HUCM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chetu/Documents/GlobalVerificationNetwork-HUCM/GlobalVerificationNetwork-HUCM/ObjectiveC-Bridging-Header/GlobalVerificationNetwork-HUCM-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A3BE8B21EA652B1004306A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GlobalVerificationNetwork-HUCMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dummy.keywords.GlobalVerificationNetwork-HUCMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chetu/Documents/GlobalVerificationNetwork-HUCM/GlobalVerificationNetwork-HUCM/ObjectiveC-Bridging-Header/GlobalVerificationNetwork-HUCM-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlobalVerificationNetwork-HUCM.app/GlobalVerificationNetwork-HUCM";
+			};
+			name = Debug;
+		};
+		3A3BE8B31EA652B1004306A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GlobalVerificationNetwork-HUCMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dummy.keywords.GlobalVerificationNetwork-HUCMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chetu/Documents/GlobalVerificationNetwork-HUCM/GlobalVerificationNetwork-HUCM/ObjectiveC-Bridging-Header/GlobalVerificationNetwork-HUCM-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlobalVerificationNetwork-HUCM.app/GlobalVerificationNetwork-HUCM";
+			};
+			name = Release;
+		};
+		3A3BE8B51EA652B1004306A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "GlobalVerificationNetwork-HUCMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dummy.keywords.GlobalVerificationNetwork-HUCMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chetu/Documents/GlobalVerificationNetwork-HUCM/GlobalVerificationNetwork-HUCM/ObjectiveC-Bridging-Header/GlobalVerificationNetwork-HUCM-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "GlobalVerificationNetwork-HUCM";
+			};
+			name = Debug;
+		};
+		3A3BE8B61EA652B1004306A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "GlobalVerificationNetwork-HUCMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dummy.keywords.GlobalVerificationNetwork-HUCMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chetu/Documents/GlobalVerificationNetwork-HUCM/GlobalVerificationNetwork-HUCM/ObjectiveC-Bridging-Header/GlobalVerificationNetwork-HUCM-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "GlobalVerificationNetwork-HUCM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A3BE8811EA652B0004306A1 /* Build configuration list for PBXProject "GlobalVerificationNetwork-HUCM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3BE8AC1EA652B1004306A1 /* Debug */,
+				3A3BE8AD1EA652B1004306A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3BE8AE1EA652B1004306A1 /* Build configuration list for PBXNativeTarget "GlobalVerificationNetwork-HUCM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3BE8AF1EA652B1004306A1 /* Debug */,
+				3A3BE8B01EA652B1004306A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3BE8B11EA652B1004306A1 /* Build configuration list for PBXNativeTarget "GlobalVerificationNetwork-HUCMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3BE8B21EA652B1004306A1 /* Debug */,
+				3A3BE8B31EA652B1004306A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3BE8B41EA652B1004306A1 /* Build configuration list for PBXNativeTarget "GlobalVerificationNetwork-HUCMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3BE8B51EA652B1004306A1 /* Debug */,
+				3A3BE8B61EA652B1004306A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A3BE87E1EA652B0004306A1 /* Project object */;
+}

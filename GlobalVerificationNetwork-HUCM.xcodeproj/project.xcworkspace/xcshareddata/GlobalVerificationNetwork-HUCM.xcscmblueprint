@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8dd2d3e8-4648-4448-ab95-933b10c85fb7++4327",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "8dd2d3e8-4648-4448-ab95-933b10c85fb7++4327" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8dd2d3e8-4648-4448-ab95-933b10c85fb7++4327" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "834C20B2-2938-445F-A004-98FFC7C80F42",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8dd2d3e8-4648-4448-ab95-933b10c85fb7++4327" : "GlobalVerificationNetwork-HUCM\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GlobalVerificationNetwork-HUCM",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GlobalVerificationNetwork-HUCM.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/chetusvn.chetu.com:8443\/svn\/GlobalVerificationNetwork-HUCM",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8dd2d3e8-4648-4448-ab95-933b10c85fb7++4327"
+    }
+  ]
+}

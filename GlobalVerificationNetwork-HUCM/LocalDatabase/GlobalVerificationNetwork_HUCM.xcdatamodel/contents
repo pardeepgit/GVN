@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ApplicantDetail" representedClassName=".ApplicantDetail" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dob" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="middlename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="muncipality" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postalcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ssn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telephone" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="order" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DraftOrder" inverseName="applicantsearch" inverseEntity="DraftOrder" syncable="YES"/>
+    </entity>
+    <entity name="DraftOrder" representedClassName=".DraftOrder" syncable="YES">
+        <attribute name="isdriversearch" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="packagetype" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="saveddraftdate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="applicantsearch" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="ApplicantDetail" inverseName="order" inverseEntity="ApplicantDetail" syncable="YES"/>
+        <relationship name="driversearch" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="DriverDetail" inverseName="order" inverseEntity="DriverDetail" syncable="YES"/>
+    </entity>
+    <entity name="DriverDetail" representedClassName=".DriverDetail" syncable="YES">
+        <attribute name="licenseduration" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="licensenumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="licensestate" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="order" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DraftOrder" inverseName="driversearch" inverseEntity="DraftOrder" syncable="YES"/>
+    </entity>
+    <entity name="ScreeningOrder" representedClassName=".ScreeningOrder" syncable="YES">
+        <attribute name="fee" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderdate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ordertime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="packagetype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xmlrequest" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xmlresponse" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ApplicantDetail" positionX="-837" positionY="-459" width="128" height="223"/>
+        <element name="DraftOrder" positionX="-1116" positionY="-270" width="128" height="135"/>
+        <element name="DriverDetail" positionX="-776" positionY="-153" width="128" height="103"/>
+        <element name="ScreeningOrder" positionX="-945" positionY="-306" width="128" height="135"/>
+    </elements>
+</model>
